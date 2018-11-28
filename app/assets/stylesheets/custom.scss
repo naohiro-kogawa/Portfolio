@@ -33,6 +33,19 @@ body {
     color: white;
     background-color: rgba(0,0,0,0.5);
     border-color: white;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(33, 77, 100, 0.7);
+    border-color: cornsilk;
+     &:hover {
+     background-color: #6699CC;
+  }   
 }
 
 section {
@@ -324,3 +337,7 @@ span.picture {
     border: 0;
   }
 }
+
+// .btn-custom {
+//   background-color: red;
+// }
