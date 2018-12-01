@@ -16,9 +16,8 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 100px;
   background: image-url('viet-photo1.jpg');
-  background-size:contain;
+  background-size:cover;
   background-repeat : no-repeat; /* 1回だけ表示 */
-  background-position:center;
 }
 
 .jumbotron { 
