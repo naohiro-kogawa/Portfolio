@@ -1,9 +1,9 @@
-<h1>Sample App</h1>
+<h1>Viet Nam Book Strapへようこそ</h1>
 
-<p>Hi <%= @user.name %></p>,
+<p><%= @user.name %> さんこんにちは！</p>,
 
 <p>
-  Welcome to the Sample App! Click on the link below to activate your account:
+  ようこそ！Viet Nam Book Strapへ! 次のリンクからアカウントの有効化を行ってください！:
 </p>
 
-<%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+<%= link_to "アカウント有効化", edit_account_activation_url(@user.activation_token, email: @user.email) %>
