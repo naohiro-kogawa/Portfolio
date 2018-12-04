@@ -1,8 +1,30 @@
 <% provide(:title, "Help") %>
 <h1>Shared Spot</h1>
-<p>  Get help on the Ruby on Rails Tutorial at the
-  <a href="https://railstutorial.jp/help">Rails Tutorial help section</a>.
-  To get help on this sample app, see the
-  <a href="https://railstutorial.jp/#ebook"><em>Ruby on Rails Tutorial</em>
-  book</a>.
-</p>
+
+<div id="photo">
+   <ul> 
+    <img src="img/hotimin.jpg/" alt="" width="800" height="400" />
+    <%= image_tag('hoian.jpg') %>
+    <%= image_tag('hoian2.jpg') %>
+    <%= image_tag('mecon1c.jpg') %>
+    <<%= image_tag('mecon2.jpg') %>
+    <%= image_tag('vietfood.jpg') %>
+    <%= image_tag('harumaki.jpg') %>
+    <%= image_tag('viet2.jpg') %>
+    <%= image_tag('viet1.jpg') %>
+    <%= image_tag('viet3.jpg') %>
+    <%= image_tag('danan.jpg') %>
+   </ul>
+</div>
+
+<script type="text/javascript">
+$(function(){
+	$('#photo').infiniteslide({
+		'height': 400,			// 高さを指定
+		'speed': 30,			// スピードを指定
+		'direction' : 'left',	// スライドする向きを指定
+		'pauseonhover': false	// マウスオーバーでストップするかを指定
+	});
+});
+</script>
+
