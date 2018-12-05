@@ -1,30 +1,18 @@
 <% provide(:title, "Help") %>
 <h1>Shared Spot</h1>
 
-<div id="photo">
-   <ul> 
-    <img src="img/hotimin.jpg/" alt="" width="800" height="400" />
-    <%= image_tag('hoian.jpg') %>
-    <%= image_tag('hoian2.jpg') %>
-    <%= image_tag('mecon1c.jpg') %>
-    <<%= image_tag('mecon2.jpg') %>
-    <%= image_tag('vietfood.jpg') %>
-    <%= image_tag('harumaki.jpg') %>
-    <%= image_tag('viet2.jpg') %>
-    <%= image_tag('viet1.jpg') %>
-    <%= image_tag('viet3.jpg') %>
-    <%= image_tag('danan.jpg') %>
-   </ul>
+<div class ="photo">
+  <ul>
+     <li><img src="/assets/hotimin.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/hoian.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/hoian2.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/mecon1c.jpg"width="300" height="300" /></li>
+　　 <li><img src="/assets/mecon2.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/vietfood.jpg"width="300" height="300" /></li>
+　　 <li><img src="/assets/harumaki.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/viet2.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/viet1.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/viet3.jpg" width="300" height="300" /></li>
+　　 <li><img src="/assets/danan.jpg" width="300" height="300" /></li>
+　</ul>
 </div>
-
-<script type="text/javascript">
-$(function(){
-	$('#photo').infiniteslide({
-		'height': 400,			// 高さを指定
-		'speed': 30,			// スピードを指定
-		'direction' : 'left',	// スライドする向きを指定
-		'pauseonhover': false	// マウスオーバーでストップするかを指定
-	});
-});
-</script>
-
