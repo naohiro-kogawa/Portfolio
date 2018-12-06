@@ -16,7 +16,7 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 100px;
   background: image-url('viet-photo1.jpg');
-  background-size:cover;
+  background-size: 100% auto;
   background-repeat : no-repeat; /* 1回だけ表示 */
 }
 
@@ -355,8 +355,12 @@ span.picture {
 
 // help 紹介写真ページ
 
-// .photo {
-//     display: block;
-// 	  width: 96px;
-// 　　height: 65px;
-// }
+/* トップページ以外にスタイルを設定 */
+body:not(.home) { 
+    background-repeat: repeat;  /*縦横に背景画像を繰り返して表示します。これが初期値です*/
+}
+
+.photo p {
+  color:white;
+  font-size:20px;
+}
