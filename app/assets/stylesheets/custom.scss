@@ -358,12 +358,15 @@ span.picture {
 
 /* トップページ以外にスタイルを設定 */
 body:not(.home) { 
-    background-repeat: repeat;  /*縦横に背景画像を繰り返して表示します。これが初期値です*/
+    background-repeat: no-repeat;  /*縦横に背景画像を繰り返して表示します。これが初期値です*/
+    background-attachment: fixed;
 }
 
 .photo p {
   color:coral;
   font-size:18px;
+  display: block;
+  margin: 30px 30px 0px 0px ;
 }
 
 
