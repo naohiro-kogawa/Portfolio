@@ -287,8 +287,16 @@ input {
 /* Users index */
 
 .users {
-  list-style: none;
-  margin: 0;
+  margin-bottom: 10px;
+  background-color: #0002007d;
+  border-width: 2px;
+  border-color: #3c763d87;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  clear: both;
+  opacity: 0.9;
+  vertical-align: middle;
   li {
     overflow: auto;
     padding: 10px 0;
@@ -367,6 +375,17 @@ body:not(.home) {
   font-size:18px;
   display: block;
   margin: 30px 30px 0px 0px ;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: #0002007d;
+  border-width: 2px;
+  border-color: #3c763d87;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  clear: both;
+  opacity: 0.9;
+  vertical-align: middle;
 }
 
 
@@ -374,14 +393,39 @@ body:not(.home) {
   background: rgb(31, 89, 97);
 }
 
+// リンクページ
 .linksite {
   text-align: center;
   font-size: 22px;
   display: block;
   margin: 0px 0px 0px 0px ;
   line-height: 20px;
+  margin-bottom: 10px;
+  background-color: #0002007d;
+  border-width: 2px;
+  border-color: #3c763d87;
+  border-style: solid;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  opacity: 0.9;
+  vertical-align: middle;
 }
 
 .timestamp {
   color: white;
+}
+
+.col-md-8 {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #0002007d;
+  border-width: 2px;
+  border-color: #3c763d87;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  clear: both;
+  opacity: 0.9;
+  vertical-align: middle;
 }
