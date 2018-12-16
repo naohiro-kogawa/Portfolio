@@ -358,7 +358,7 @@ span.picture {
 
 /* トップページ以外にスタイルを設定 */
 body:not(.home) { 
-    background-repeat: no-repeat;  /*縦横に背景画像を繰り返して表示します。これが初期値です*/
+    background-repeat: no-repeat;  /*縦横に背景画像を繰り返して表示しない*/
     background-attachment: fixed;
 }
 
@@ -372,4 +372,16 @@ body:not(.home) {
 
 .dropdown-menu {
   background: rgb(31, 89, 97);
+}
+
+.linksite {
+  text-align: center;
+  font-size: 22px;
+  display: block;
+  margin: 0px 0px 0px 0px ;
+  line-height: 20px;
+}
+
+.timestamp {
+  color: white;
 }
