@@ -373,7 +373,7 @@ body:not(.home) {
 .photo p {
   color:coral;
   font-size:18px;
-  display: block;
+  display:inline-flex;
   margin: 30px 30px 0px 0px ;
   margin-top: 0;
   margin-bottom: 10px;
@@ -425,7 +425,7 @@ body:not(.home) {
   border-style: solid;
   text-align: left;
   padding: 10px;
-  clear: both;
+  // clear: both;　＊左寄せ、または右寄せされた全ての要素に対する回り込みを解除します。
   opacity: 0.9;
   vertical-align: middle;
 }
