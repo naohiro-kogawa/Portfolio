@@ -326,7 +326,7 @@ input {
     }
   }
   .timestamp {
-    color: $gray-light;
+    color: coral;
     display: block;
     margin-left: 60px;
   }
@@ -412,10 +412,6 @@ body:not(.home) {
   vertical-align: middle;
 }
 
-.timestamp {
-  color: white;
-}
-
 .col-md-8 {
   display: block;
   margin-bottom: 10px;
@@ -458,3 +454,12 @@ body:not(.home) {
   opacity: 0.99;
   vertical-align: middle;
 }
+
+.microposts a {
+  color: white;
+}
+
+a {
+  color: #f5f5f5;
+  text-decoration: none
+}  
