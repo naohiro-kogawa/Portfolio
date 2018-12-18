@@ -384,7 +384,7 @@ body:not(.home) {
   text-align: left;
   padding: 10px;
   clear: both;
-  opacity: 0.9;
+  opacity: 0.99;
   vertical-align: middle;
 }
 
@@ -396,7 +396,7 @@ body:not(.home) {
 // リンクページ
 .linksite {
   text-align: center;
-  font-size: 22px;
+  font-size: 19px;
   display: block;
   margin: 0px 0px 0px 0px ;
   line-height: 20px;
@@ -437,4 +437,24 @@ body:not(.home) {
   left: 30px;
   color: white;
   // display: block;
+}
+
+// contactページ
+
+.vietmovie {
+  text-align: center;
+  font-size: 22px;
+  display: block;
+  margin: 0px 0px 0px 0px ;
+  line-height: 20px;
+  margin-bottom: 10px;
+  background-color: #0002007d;
+  border-width: 2px;
+  border-color: #3c763d87;
+  border-style: solid;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+  opacity: 0.99;
+  vertical-align: middle;
 }
