@@ -429,3 +429,12 @@ body:not(.home) {
   opacity: 0.9;
   vertical-align: middle;
 }
+
+.difference-time {
+  line-height: 48px;
+  font-weight: bold;
+  // position: relative;
+  left: 30px;
+  color: white;
+  // display: block;
+}
