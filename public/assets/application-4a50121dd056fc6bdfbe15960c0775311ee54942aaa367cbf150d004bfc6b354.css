@@ -8889,6 +8889,11 @@ p {
 }
 
 /* line 106, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+.navbar-inverse {
+  border: none;
+}
+
+/* line 111, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 #logo {
   float: left;
   margin-right: 10px;
@@ -8900,26 +8905,26 @@ p {
   padding-top: 9px;
   font-weight: bold;
 }
-/* line 116, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 121, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 #logo:hover {
   color: gold;
   text-decoration: none;
 }
 
-/* line 122, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 127, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .nav a {
   font-family: 'Black Han Sans', sans-serif;
   font-size: 1.2em;
   color: white;
 }
-/* line 126, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 131, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .nav a:hover {
   color: gold;
   text-decoration: none;
 }
 
 /* footer */
-/* line 135, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 140, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer {
   font-family: 'Black Han Sans', sans-serif;
   margin-top: 120px;
@@ -8928,29 +8933,29 @@ footer {
   color: #777777;
   /* miscellaneous */
 }
-/* line 141, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 146, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer a {
   color: white;
 }
-/* line 143, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 148, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer a:hover {
   color: gold;
 }
-/* line 147, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 152, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer small {
   float: left;
 }
-/* line 150, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 155, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer ul {
   float: right;
   list-style: none;
 }
-/* line 153, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 158, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
 }
-/* line 161, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 166, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 footer .debug_dump {
   clear: both;
   float: left;
@@ -8962,27 +8967,27 @@ footer .debug_dump {
 }
 
 /* sidebar */
-/* line 173, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 178, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside section.user_info {
   margin-top: 20px;
 }
-/* line 176, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 181, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside section {
   padding: 10px 0;
   margin-top: 20px;
 }
-/* line 179, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 184, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside section:first-child {
   border: 0;
   padding-top: 0;
 }
-/* line 183, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 188, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside section span {
   display: block;
   margin-bottom: 3px;
   line-height: 1;
 }
-/* line 188, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 193, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside section h1 {
   font-size: 1.4em;
   text-align: left;
@@ -8991,66 +8996,66 @@ aside section h1 {
   margin-top: 0px;
 }
 
-/* line 198, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 203, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .gravatar {
   float: left;
   margin-right: 10px;
 }
 
-/* line 203, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 208, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .gravatar_edit {
   margin-top: 15px;
 }
 
-/* line 207, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 212, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .stats {
   overflow: auto;
   margin-top: 0;
   padding: 0;
 }
-/* line 211, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 216, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .stats a {
   float: left;
   padding: 0 10px;
   border-left: 1px solid #eeeeee;
-  color: lightgray;
+  color: #170e0b;
 }
-/* line 216, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 221, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .stats a:first-child {
   padding-left: 0;
   border: 0;
 }
-/* line 220, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 225, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .stats a:hover {
   text-decoration: none;
   color: darkorange;
 }
-/* line 225, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 230, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .stats strong {
   display: block;
 }
 
-/* line 230, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 235, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
 }
-/* line 233, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 238, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .user_avatars .gravatar {
   margin: 1px 1px;
 }
-/* line 236, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 241, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .user_avatars a {
   padding: 0;
 }
 
-/* line 241, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 246, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .users.follow {
   padding: 0;
 }
 
 /* forms */
-/* line 247, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 252, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
@@ -9060,45 +9065,45 @@ input, textarea, select, .uneditable-input {
   box-sizing: border-box;
 }
 
-/* line 254, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 259, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 input {
   height: auto !important;
 }
 
-/* line 258, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 263, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 #error_explanation {
   color: red;
 }
-/* line 260, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 265, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 #error_explanation ul {
   color: red;
   margin: 0 0 30px 0;
 }
 
-/* line 268, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 273, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .field_with_errors .form-control {
   color: #a94442;
 }
 
-/* line 273, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 278, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
 }
-/* line 276, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 281, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .checkbox span {
   margin-left: 20px;
   font-weight: normal;
 }
 
-/* line 282, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 287, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 #session_remember_me {
   width: auto;
   margin-left: 0;
 }
 
 /* Users index */
-/* line 289, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 294, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .users {
   margin-bottom: 10px;
   background-color: #0002007d;
@@ -9111,7 +9116,7 @@ input {
   opacity: 0.9;
   vertical-align: middle;
 }
-/* line 300, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 305, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .users li {
   overflow: auto;
   padding: 10px 0;
@@ -9119,60 +9124,60 @@ input {
 }
 
 /* microposts */
-/* line 309, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 314, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts {
   list-style: none;
   padding: 0;
 }
-/* line 312, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 317, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts li {
   padding: 10px 0;
   border-top: 1px solid #e8e8e8;
 }
-/* line 316, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 321, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts .user {
   margin-top: 5em;
   padding-top: 0;
 }
-/* line 320, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 325, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts .content {
   display: block;
   margin-left: 60px;
 }
-/* line 323, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 328, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts .content img {
   display: block;
   padding: 5px 0;
 }
-/* line 328, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 333, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts .timestamp {
   color: coral;
   display: block;
   margin-left: 60px;
 }
-/* line 333, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 338, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts .gravatar {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-/* line 341, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 346, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 aside textarea {
   height: 100px;
   margin-bottom: 5px;
 }
 
-/* line 347, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 352, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 span.picture {
   margin-top: 10px;
 }
-/* line 349, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 354, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 span.picture input {
   border: 0;
 }
 
-/* line 359, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 364, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .col-md-6.col-md-offset-3 {
   font-size: 1.2em;
   color: gold;
@@ -9180,14 +9185,14 @@ span.picture input {
 }
 
 /* トップページ以外にスタイルを設定 */
-/* line 368, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 373, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 body:not(.home) {
   background-repeat: no-repeat;
   /*縦横に背景画像を繰り返して表示しない*/
   background-attachment: fixed;
 }
 
-/* line 373, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 378, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .photo p {
   color: coral;
   font-size: 18px;
@@ -9206,12 +9211,17 @@ body:not(.home) {
   vertical-align: middle;
 }
 
-/* line 392, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 397, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .dropdown-menu {
   background: #1f5961;
 }
 
-/* line 397, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 401, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #1f5961;
+}
+
+/* line 406, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .linksite {
   text-align: center;
   font-size: 19px;
@@ -9230,7 +9240,7 @@ body:not(.home) {
   vertical-align: middle;
 }
 
-/* line 415, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 424, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .col-md-8 {
   display: block;
   margin-bottom: 10px;
@@ -9244,15 +9254,17 @@ body:not(.home) {
   vertical-align: middle;
 }
 
-/* line 429, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 438, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .difference-time {
   line-height: 48px;
   font-weight: bold;
+  　position: fixed;
+  /* ヘッダーを固定する */
   left: 30px;
   color: white;
 }
 
-/* line 440, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 449, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .vietmovie {
   text-align: center;
   font-size: 22px;
@@ -9271,12 +9283,12 @@ body:not(.home) {
   vertical-align: middle;
 }
 
-/* line 458, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 467, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 .microposts a {
   color: white;
 }
 
-/* line 462, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
+/* line 471, /home/ec2-user/environment/sample_app/app/assets/stylesheets/custom.scss */
 a {
   color: #f5f5f5;
   text-decoration: none;
