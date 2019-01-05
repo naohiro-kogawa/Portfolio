@@ -103,6 +103,11 @@ p {
   text-shadow: 1.5px 1.5px 1.5px #696969
 }
 
+.navbar-inverse {
+    border: none;
+}
+
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -395,7 +400,6 @@ body:not(.home) {
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: rgb(31, 89, 97);
-  color: #fff;
 }
 
 // リンクページ//
@@ -434,7 +438,7 @@ body:not(.home) {
 .difference-time {
   line-height: 48px;
   font-weight: bold;
-  // position: relative;
+　position: fixed;	/* ヘッダーを固定する */
   left: 30px;
   color: white;
   // display: block;
@@ -472,3 +476,7 @@ a {
 
 @media screen and (min-width: 480px) { }
 @media screen and (min-width: 768px) { }
+
+
+
+
