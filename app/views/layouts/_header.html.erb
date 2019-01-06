@@ -24,9 +24,13 @@
         <% else %>
           <li><%= link_to "Log in", login_path %></li>
         <% end %>
-        <!--<div style="top : 40px;right : 80px;position : absolute;z-index : 0;">-->
-        <li class="difference-time">
-          <script type="text/javascript" src="//wg.time-j.net/Location/Asia/Ho_Chi_Minh" ></script></li>
+       <div class="hidden_box">
+        <label for="label1">ベトナム時間表示</label><input type="checkbox" id="label1"/>
+       <div class="hidden_show">
+       <!--非表示ここから--> <script type="text/javascript"src="//wg.time-j.net/Location/Asia/Ho_Chi_Minh" ></script></li>
+       <!--ここまで-->
+    </div>
+  </div>
       </ul>
     </nav>
   </div>

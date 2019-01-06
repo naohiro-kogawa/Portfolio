@@ -436,13 +436,18 @@ body:not(.home) {
 }
 
 .difference-time {
-  line-height: 48px;
-  font-weight: bold;
-　position: fixed;	/* ヘッダーを固定する */
-  left: 30px;
+  font-size: 10px;
   color: white;
-  // display: block;
+  // display: inline;
 }
+
+.timej_label,.timej_time{
+  color: white;
+  float: right;
+  font-size: 13px;
+  display: inline;
+}
+
 
 // contactページ//
 
@@ -478,5 +483,48 @@ a {
 @media screen and (min-width: 768px) { }
 
 
+// 時間表示関連
 
+/*全体*/
+.hidden_box {
+    margin: 0 0;/*前後の余白*/
+    padding: 1px 0px;
+    display: inline;
+}
 
+/*ボタン装飾*/
+.hidden_box label {
+    display: inline-block;
+    padding: 13px 1px;
+	  border-radius: 10px;
+    text-decoration: none;
+    color: gold;
+    transition: .4s;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #008080;
+    cursor : pointer;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
