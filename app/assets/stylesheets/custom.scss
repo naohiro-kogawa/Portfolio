@@ -124,7 +124,7 @@ p {
   }
 }
 
-.nav a {
+.navbar-nav > li > a {
    font-family: 'Black Han Sans', sans-serif;
    font-size: 1.2em;
    color: white;
@@ -494,17 +494,22 @@ a {
 
 /*ボタン装飾*/
 .hidden_box label {
+    font-size: 1.2em;
+    font-family: 'Black Han Sans', sans-serif;
     display: inline-block;
-    padding: 13px 1px;
+    padding: 13px;
 	  border-radius: 10px;
-    text-decoration: none;
+    color: white;
+    &:hover {
     color: gold;
+    text-decoration: none;
+  }
     transition: .4s;
 }
 
 /*ボタンホバー時*/
 .hidden_box label:hover {
-    background: #008080;
+    background: none;
     cursor : pointer;
 }
 
