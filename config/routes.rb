@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user_checks/check'
+
   get 'password_resets/new'
 
   get 'password_resets/edit'
@@ -16,11 +18,18 @@ Rails.application.routes.draw do
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
+  
+  # get   'work_spaces/:id', to: 'work_spaces#edit',as:'work_spaces_edit' #例
+  get   'user_checks/:id', to: 'user_checks#check'
+  
   resources :users do
     member do
       get :following, :followers
     end
   end  
+  
+  resources :user_checks
+  
   resources :users
   resources :account_activations, only: [:edit] 
   resources :password_resets,     only: [:new, :create, :edit, :update] 

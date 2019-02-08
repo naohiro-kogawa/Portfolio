@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # ユーザーサンプル32
-User.create!(name:  "Example User",
+User.create!(name:  "管理者（古川尚弘）",
              email: "example@railstutorial.org",
              password:              "foobar",
              password_confirmation: "foobar",
