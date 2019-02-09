@@ -15,6 +15,14 @@ User.create!(name:  "管理者（古川尚弘）",
              activated: true,
              activated_at: Time.zone.now)
              
+User.create!(name:  "（一般太郎）",
+             email: "sakuraxsakuraxis24@gmail.com",
+             password:              "foobar",
+             password_confirmation: "foobar",
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)             
+             
 
 99.times do |n|
   name  = Faker::Name.name
